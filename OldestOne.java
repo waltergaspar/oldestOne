@@ -19,8 +19,8 @@ public class OldestOne {
 // getting people's names and ages
         String[] nameArray = new String[numberPeople];
         int[] ageArray = new int[numberPeople];
-        System.out.print("Data of 1 person: ");
         for (int i = 0; i < numberPeople; i++) {
+            System.out.printf("%dnd person data: %n", i+1);
             System.out.print("Name: ");
             nameArray[i] = scanner.next();
             System.out.print("Age: ");
